@@ -1,3 +1,3 @@
 #!/bin/bash
-$ find /  -type f -printf '%T+ %p\n' | sort | head -n 1
+$ sudo find /  -type f -printf '%T+ %p\n' | sort | head -n 1
 
