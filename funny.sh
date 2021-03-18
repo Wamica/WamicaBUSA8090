@@ -1,6 +1,6 @@
-if [ $# -eq 0]
+if [ "$#" -eq 0]
 then
-	echo"This is not funny"
+	echo "This is not funny"
 else
-	echo"This is funny"
+	echo "This is funny"
 fi
