@@ -1,6 +1,5 @@
-time = date +"%M"
-
-if [ time  < 20 ];
+"$time" = "date +"%M""
+if [ $time  < "20" ];
 then
 	echo "aaaaa"
 else
